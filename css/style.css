@@ -1,0 +1,66 @@
+h1, h2, h3{
+  font-family:courier;
+}    
+
+p{
+  font-size: 15px;
+  font-family: courier;
+}
+ .thumbnail {
+        border: 0 none;
+        box-shadow: none;
+        margin:0;
+        padding:0;
+    }
+
+
+
+.quote{
+ position: absolute;
+  display: block;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+padding-top:5%; 
+  padding-left: 14%; 
+  padding-right: 14%;
+}
+
+.text-muted {
+  font-family: lato-italic;
+  font-size: 15px;
+}
+.author{
+ position: absolute;
+  display: block;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 140px;
+
+}
+
+
+
+.container{
+  text-align:center;
+  padding-top: 50px;
+}
+
+body, html{
+      height: 100%; 
+      margin: 0;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+
+  
+}
+
+.img-responsive {
+  margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
